@@ -12,7 +12,7 @@ def listen_messages(bot):
             bot.method("messages.send", {"user_id": event.object["message"]["from_id"], "message": "Хаай", "random_id": 0})
     
 
-token = "51cf58c8c63d7fd67dc10ef164e220437bfd5655b7389845ec02506ba2dd10ee4d752e8cd8355cf3dd6aa"
+token = ""
 group_id = 156845414
 
 bot = vk_api.VkApi(token=token)
